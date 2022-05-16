@@ -115,6 +115,7 @@ public class CircularLinkedList<E extends Comparable<E>> implements CircularLink
                 counter++;
             }      
         } 
+
         if(position == size){
             end = previous;
             previous.next = front;
